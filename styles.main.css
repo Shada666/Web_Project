@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 5em 0;
+}
+section {
+    text-align:center;
+    /* height: 5px; */
+    font: size 100px;
+    margin: 90px ;
+}
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.destination, .booking-form {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    /* width: 500px; */
+    
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, button {
+    margin-bottom: 15px;
+    /* /height: 5px; */
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #100f0f;
+    padding: 14px 22px;
+    border: none;
+    background: rgb(123, 204, 215);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #3498db;
+    width: 5px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
